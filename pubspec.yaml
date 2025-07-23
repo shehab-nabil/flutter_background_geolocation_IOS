@@ -7,7 +7,10 @@ dependencies:
   flutter:
     sdk: flutter
   collection: ^1.15.0
-  background_fetch: ^1.3.3
+  background_fetch:
+    git:
+      url: https://github.com/shehab-nabil/flutter_background_fetch_IOS.git
+      ref: master 
 
 flutter:
   plugin:
